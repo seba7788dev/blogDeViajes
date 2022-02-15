@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+
+
+    
+<script src="https://kit.fontawesome.com/039ce18365.js" crossorigin="anonymous"></script>
+  
     <title>Blog de viajes</title>
 </head>
 
@@ -18,12 +24,26 @@
 </header>
 
 <div class="barra">
-    <nav class="navegacion-principal contenedor">
+
+    <div class="contenedor-mobile">
+
+    <a href="#nav" class="mobile-menu">
+        
+      <img src="img/ellipsis-vertical-solid.svg" alt="" class="elipsis">
+        
+    </a>
+</div>
+
+    <nav class="navegacion-principal contenedor" id="nav">
         <a href="#">Inicio</a>
         <a href="#">Nosotros</a>
         <a href="#">Blog</a>
         <a href="#">Tienda Virtual</a>
         <a href="#">Contacto</a>
+
+        <a href="#" class="cerrar">
+            <img src="img/xmark-solid.svg" alt="">
+        </a>
     </nav>
 </div>
 
@@ -95,7 +115,32 @@
     </aside>
 
 
-</div>
+</div> <!-- Cierre contenedor  -->
+
+<footer class="footer-sitio">
+    <div class="contenedor">
+        <section class="nosotros">
+            <h2>Sobre nosotros</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad cum incidunt sapiente sed at, suscipit ipsa, consectetur sint, ipsam fugiat aliquid culpa magnam quo quasi.</p>
+        </section>
+
+
+        <section class="menu">
+            <h2>Menu de navegacion</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Nosotros</a>
+                <a href="#">Blog</a>
+                <a href="#">Tienda Virtual</a>
+                <a href="#">Contacto</a> </nav>
+        </section>
+    </div>
+
+    <p class="copyright">Blog de viajes - Todos los derechos reservados 2022 &copy;</p>
+
+
+  
+</footer>
 
 
 </body>
